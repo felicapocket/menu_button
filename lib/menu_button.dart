@@ -220,7 +220,7 @@ class _MenuButtonState<T> extends State<MenuButton<T>> {
                 child: Container(
                   width: labelTextSize.width + labelDecoration.leftPosition,
                   height: decoration.border?.top.width ?? 0,
-                  color: Theme.of(context).backgroundColor,
+                  color: Theme.of(context).colorScheme.surface,
                 ),
               ),
               Positioned(
